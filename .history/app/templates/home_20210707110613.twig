@@ -1,4 +1,4 @@
-{% block header %}
+{% block body %}
   {{ include('includes/_header.html.twig', with_context = true) }}
 {% endblock %}
 
@@ -507,7 +507,7 @@
           </div><!-- / .contact-wrapper -->
         </section><!-- / .contact-1 -->
 
-        {% block footer %}
+        {% block %}
           {{ include('includes/_footer.html.twig', with_context = true) }}
         {% endblock %}
 
